@@ -1,0 +1,22 @@
+{
+  "name": "mediaclip-upload-first-server",
+  "version": "1.0.0",
+  "description": "Node server to host mediaclipUploadFirst app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianShoenberger/mediaclipUploadFirstServer.git"
+  },
+  "author": "IS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianShoenberger/mediaclipUploadFirstServer/issues"
+  },
+  "homepage": "https://github.com/ianShoenberger/mediaclipUploadFirstServer#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
