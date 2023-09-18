@@ -14,5 +14,5 @@ app.get('/', (req, res) => {
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
-  console.log(`mediaclip upload first app listening to port ${PORT}`);
+  console.log(`mediaclip upload first app started. listening to port ${PORT}`);
 });
