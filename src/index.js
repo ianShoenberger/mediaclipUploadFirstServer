@@ -12,6 +12,10 @@ app.get('/', (req, res) => {
   res.sendFile(path + "index.html");
 });
 
+// app.post('/cart', (req, res) => {
+
+// })
+
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
   console.log(`mediaclip upload first app started. listening to port ${PORT}`);
