@@ -78,29 +78,38 @@ define(['./workbox-5357ef54'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
-    "url": "assets/index-8317a910.js",
+    "url": "assets/index-55ade697.css",
     "revision": null
   }, {
-    "url": "assets/index-b50f3c1c.css",
+    "url": "assets/index-c806c535.js",
     "revision": null
   }, {
     "url": "index.html",
-    "revision": "3037253a463b56aa00178418cafcdfbf"
+    "revision": "9b1b1122d89cdefc2cd3295e01ee44d0"
   }, {
     "url": "registerSW.js",
     "revision": "1872c500de691dce40960bb85481de07"
   }, {
     "url": "favicon.ico",
-    "revision": "2aba98472cf54802e25e563f9a5bb6ca"
+    "revision": "3e54da92713a07872580179c840845ab"
+  }, {
+    "url": "apple-touch-icon.png",
+    "revision": "7d36a2dc8901aef06b89b75e125bc5c0"
+  }, {
+    "url": "pwa-192x192.png",
+    "revision": "93e2a7eb755dc907219d8ed7a842a2fd"
   }, {
     "url": "manifest-icon-192.maskable.png",
-    "revision": "0c74468b314714a7458da1027e3fc138"
+    "revision": "b0650375dc0f5b023ad9313f27f0622f"
+  }, {
+    "url": "pwa-512x512.png",
+    "revision": "edc2d4a7b47dadf57ebba92b06b8876f"
   }, {
     "url": "manifest-icon-512.maskable.png",
-    "revision": "fadf54f2a653b8b1a93d4efd4a9d3673"
+    "revision": "d905ae9068b27fc5632cbf667a0967d2"
   }, {
     "url": "manifest.webmanifest",
-    "revision": "82dceeeda8237401331dee111d4d0373"
+    "revision": "9629bb950946b41fc989b6b9a67c00cb"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html")));
